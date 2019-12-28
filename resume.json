@@ -1,0 +1,165 @@
+{
+  "basics": {
+    "name": "Ivan Muratov",
+    "label": "Software Developer. Technical Team Leader. Chief Technical Officer.",
+    "picture": "avatar.jpg",
+    "email": "binakot@gmail.com",
+    "phone": "",
+    "website": "https://binakot.github.io/resume",
+    "summary": "Studying programming since 2007. The winner of the artificial intelligence section at International Scientific Student Conference in Novosibirsk in 2014. A member of the ACM ICPC team for 2 years. Experience in commercial software development since 2012. The first work with a flexible schedule was the position of system administrator in the city clinic. My main responsibilities were HP-UX server administration and development and support of internal workflow automation tools written on the C# and .NET Framework. After I was engaged in the development and support of software for slot machines. Here I got a lot of experience working with hardware, writing drivers, as well as working with graphics. The main stack was C/C++, Linux, OpenGL. Then I became a member of the team of independent game developers Black Cloud Studios. Development was carried out on the Unity engine and C# and JS languages. It was my first experience of the remote job and communication in an English-speaking team. Then I moved from Siberia to the western part of the country. I have been working for more than 4 years at the First Monitoring Company in Krasnodar city. The first couple of years in the position of software developer I participated, and then led the following projects: two desktop SWING and WPF applications, two mobile Android applications, monolithic Java backend server. After that I received a promotion to the technical team leader and I have been conducting a new project Waliot for 2 years. Waliot is IoT platform for GPS navigation and real-time monitoring for fleet and staff resources of our clients. It’s designed with microservice architecture based on Netflix OSS, using CI/CD pipelines, running in Docker Swarm cluster with ELK logging and Prometheus/Grafana monitoring. The backend part is mostly written on Java, but there are services on Kotlin, Python and NodeJS. The frontend applications is written on Angular and TypeScript. Also I participate in several open source projects, organize conferences and meetups, make presentations at major conferences and so on. I always try to learn new technologies and approaches. Most of all I like to work with people on complex and interesting tasks. And the biggest reward for me is a growing business and satisfied customers. I am married and have a little son.",
+    "location": {
+      "address": "",
+      "postalCode": "350000",
+      "city": "Krasnodar",
+      "countryCode": "RU",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "binakot",
+        "url": "https://twitter.com/binakot"
+      },
+      {
+        "network": "GitHub",
+        "username": "binakot",
+        "url": "https://github.com/binakot"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "binakot",
+        "url": "https://www.linkedin.com/in/binakot"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "First Monitoring Company",
+      "position": "Chief Technical Officer",
+      "website": "https://waliot.com",
+      "startDate": "2015-10-01",
+      "summary": "First Monitoring Company is an advanced vendor and system integrator of solutions based on GPS | GLONASS monitoring of vehicles for business and individual use.",
+      "highlights": [
+        "Java, Spring Boot, Spring Cloud, Netflix OSS",
+        "Angular, TypeScript",
+        "Redis, RabbitMQ, PostgreSQL (TimescaleDB, PostGIS)",
+        "Docker, Docker Swarm",
+        "ELK, Prometheus, Grafana",
+        "Jenkins, Artifactory, Portainer"
+      ]
+    },
+    {
+      "company": "Black Cloud Studios",
+      "position": "Unity Developer",
+      "website": "http://blackcloudstudios.com",
+      "startDate": "2013-09-01",
+      "endDate": "2015-06-01",
+      "summary": "After Reset RPG - an old-school hard sci-fi post-apocalyptic roleplaying game inspired by such video games as Fallout 1/2, Baldur’s Gate and Planescape: Torment.",
+      "highlights": [
+        "Unity3D, C#",
+        "Game Design Patterns, Unit/Behaviour Testing, Profiling/Optimization",
+        "Unity custom extensions, Valve Steamworks API, Valve Steam Distribution"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Krasnodar Dev Days",
+      "position": "Co-founder, Organizer",
+      "website": "https://krd.dev",
+      "startDate": "2017-09-01",
+      "summary": "Largest community of IT specialists in Krasnodar, Russia.",
+      "highlights": [
+        "Co-founder of Krasnodar Dev Conf annual conferences",
+        "Founder of Krasnodar Backend meetups and mini-conferences"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Transbaikal State University",
+      "area": "Information Technology, Computer Science",
+      "studyType": "Specialist",
+      "startDate": "2009-09-01",
+      "endDate": "2014-06-01",
+      "gpa": "4.9",
+      "courses": [
+        "Software Engineer"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "The best speaker on PGConf.Russia 2019",
+      "date": "2019-02-01",
+      "awarder": "PGConf.Russia"
+    },
+    {
+      "title": "Top speaker on HighLoad++ Siberia 2019",
+      "date": "2019-06-01",
+      "awarder": "HighLoad++ conference by Ontico"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Time series data in a relational DBMS. Extensions TimescaleDB and PipelineDB for PostgreSQL",
+      "publisher": "Habr",
+      "releaseDate": "2019-08-28",
+      "website": "https://habr.com/ru/company/oleg-bunin/blog/464303"
+    },
+    {
+      "name": "Time series data in a relational DBMS",
+      "publisher": "Otus",
+      "releaseDate": "2019-11-13",
+      "website": "https://otus.ru/nest/post/1041"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Management",
+      "keywords": [
+        "Product management, Project management, Team management",
+        "Leadership, Teamwork"
+      ]
+    },
+    {
+      "name": "Development",
+      "keywords": [
+        "Software development, Highload systems, SOA, Microservices",
+        "Java, Kotlin, Spring, Spring Boot, Spring Cloud",
+        "C#, .NET, WPF",
+        "Android SDK",
+        "SQL, PostgreSQL, MySQL",
+        "NoSQL, Mongo, Redis, RabbitMQ",
+        "Unity3D"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+        "Docker, Docker Compose, Docker Swarm",
+        "ELK stack (Elasticsearch, Logstash, Kibana)",
+        "Prometheus, Grafana",
+        "Jenkins, Artifactory, Portainer",
+        "SonarQube, Sentry"
+      ]
+    },
+    {
+      "name": "Misc",
+      "keywords": [
+        "Atlassian stack (BitBucket, Jira, Confluence, Slack)",
+        "Linux, Git"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Russian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "B2 (Upper-Intermediate)"
+    }
+  ]
+}
