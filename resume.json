@@ -37,8 +37,8 @@
       "company": "First Monitoring Company",
       "position": "Chief Technical Officer",
       "website": "https://waliot.com",
-      "startDate": "2015-10-01",
-      "summary": "First Monitoring Company is an advanced vendor and system integrator of solutions based on GPS | GLONASS monitoring of vehicles for business and individual use.",
+      "startDate": "2015-09-01",
+      "summary": "First Monitoring Company is an advanced vendor and system integrator of solutions based on GPS technologies to monitor and manage for business and individual use. Waliot is the main product of the company. It's a B2B service for our customers to solve the problems of monitoring and management of medium and large fleets.",
       "highlights": [
         "Java, Spring Boot, Spring Cloud, Netflix OSS",
         "Angular, TypeScript",
@@ -91,16 +91,28 @@
   "awards": [
     {
       "title": "The best speaker on PGConf.Russia 2019",
-      "date": "2019-02-01",
+      "date": "2019-02-05",
       "awarder": "PGConf.Russia"
     },
     {
       "title": "Top speaker on HighLoad++ Siberia 2019",
-      "date": "2019-06-01",
+      "date": "2019-06-25",
       "awarder": "HighLoad++ conference by Ontico"
     }
   ],
   "publications": [
+    {
+      "name": "My public activities list",
+      "publisher": "Github",
+      "releaseDate": "2019-07-01",
+      "website": "https://github.com/binakot/My-Public-Activities"
+    },
+    {
+      "name": "Waliot Zen blog",
+      "publisher": "Zen",
+      "releaseDate": "2019-01-01",
+      "website": "https://zen.yandex.ru/id/5cb7062ea94d9900b37c602a"
+    },
     {
       "name": "Time series data in a relational DBMS. Extensions TimescaleDB and PipelineDB for PostgreSQL",
       "publisher": "Habr",
@@ -125,17 +137,18 @@
     {
       "name": "Development",
       "keywords": [
-        "Software development, Highload systems, SOA, Microservices",
+        "SOA, Microservices",
         "Java, Kotlin, Spring, Spring Boot, Spring Cloud",
         "C#, .NET, WPF",
         "Android SDK",
         "SQL, PostgreSQL, MySQL",
-        "NoSQL, Mongo, Redis, RabbitMQ",
+        "NoSQL, Mongo, Redis",
+        "MQ, RabbitMQ, Kafka",
         "Unity3D"
       ]
     },
     {
-      "name": "DevOps",
+      "name": "Operations",
       "keywords": [
         "Docker, Docker Compose, Docker Swarm",
         "ELK stack (Elasticsearch, Logstash, Kibana)",
