@@ -5,9 +5,9 @@ Made with http://jsonresume.org and hosted by http://github.com
 Want to make your own resume from JSON?
 
 ```bash
-npm install -g resume-cli jsonresume-theme-slick
+npm install resume-cli jsonresume-theme-slick
 resume init
-resume export index.html -t slick
+resume export index.html --theme slick
 ```
 
 A little hotfix of styles: replace two links in html head section of exported `index.html`:

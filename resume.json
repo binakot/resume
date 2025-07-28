@@ -1,172 +1,126 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Ivan Muratov",
-    "label": "Software Developer. Technical Team Leader. Chief Technical Officer.",
+    "name": "Иван Муратов",
+    "label": "CTO | CIO | CDO",
     "picture": "avatar.jpg",
     "email": "binakot@gmail.com",
     "phone": "",
     "website": "https://binakot.github.io/resume",
-    "summary": "Studying programming since 2007. The winner of the artificial intelligence section at International Scientific Student Conference in Novosibirsk in 2014. A member of the ACM ICPC team for 2 years. Experience in commercial software development since 2012. The first work with a flexible schedule was the position of system administrator in the city clinic. My main responsibilities were HP-UX server administration and development and support of internal workflow automation tools written on the C# and .NET Framework. After I was engaged in the development and support of software for slot machines. Here I got a lot of experience working with hardware, writing drivers, as well as working with graphics. The main stack was C/C++, Linux, OpenGL. Then I became a member of the team of independent game developers Black Cloud Studios. Development was carried out on the Unity engine and C# and JS languages. It was my first experience of the remote job and communication in an English-speaking team. Then I moved from Siberia to the western part of the country. I have been working for more than 5 years at the First Monitoring Company in Krasnodar city. The first couple of years in the position of software developer I participated, and then led the following projects: two desktop SWING and WPF applications, two mobile Android applications, monolithic Java backend server. After that I received a promotion to the technical team leader and I have been conducting a new project Waliot for 2 years. Waliot is IoT platform for GPS navigation and real-time monitoring for fleet and staff resources of medium and large business. It’s designed with microservice architecture based on Netflix OSS, using CI/CD pipelines, running in Docker Swarm cluster with ELK logging and Prometheus/Grafana monitoring. The backend part is mostly written on Java, but there are services on Kotlin, Python and NodeJS. The frontend applications is written on Angular and TypeScript. Also I participate in several open source projects, organize conferences and meetups, make presentations at major conferences and so on. I always try to learn new technologies and approaches. Most of all I like to work with people on complex and interesting tasks. And the biggest reward for me is a growing business and satisfied customers. I am married and have a beautiful son.",
-    "location": {
-      "address": "",
-      "postalCode": "350000",
-      "city": "Krasnodar",
-      "countryCode": "RU",
-      "region": ""
-    },
+    "summary": "Руководитель ИТ-подразделения и архитектор ПО с более чем 15-летним опытом, из них 5+ лет в роли технического директора в продуктовой разработке. Автор архитектурных решений и ключевых продуктов в сфере транспортной телематики и промышленной телеметрии. Создаю продукты, которые работают в реальном секторе: от тысяч транспортных средств в логистике до миллионов генотипов в селекции культурных растений.",
     "profiles": [
-      {
-        "network": "Twitter",
-        "username": "binakot",
-        "url": "https://twitter.com/binakot"
-      },
       {
         "network": "GitHub",
         "username": "binakot",
         "url": "https://github.com/binakot"
-      },
-      {
-        "network": "LinkedIn",
-        "username": "binakot",
-        "url": "https://www.linkedin.com/in/binakot"
       }
     ]
   },
   "work": [
     {
-      "company": "First Monitoring Company",
-      "position": "Co-founder, Chief Technical Officer",
+      "company": "ООО «Первая Мониторинговая Компания»",
+      "position": "Технический директор | Руководитель продукта Waliot",
       "website": "https://waliot.com",
       "startDate": "2015-09-01",
-      "summary": "First Monitoring Company is an advanced vendor and system integrator of solutions based on GPS technologies to monitor and manage for business and individual use. Waliot is the primary product of the company. It's a B2B service for our customers to solve the problems of monitoring and management of medium and large fleets. The service provides real-time monitoring of the fleet and staff, fuel analytics, insurance telematics and safe driving and much more.",
+      "summary": "Создатель и технический лидер Waliot — отечественной платформы управления автопарком. Под моим руководством система прошла путь от внутреннего продукта до B2B SaaS-решения, обслуживающего десятки тысяч транспортных средств в России.",
       "highlights": [
-        "Java, Spring Boot, Spring Cloud, Netflix OSS",
-        "Angular, TypeScript",
-        "Redis, RabbitMQ, PostgreSQL (TimescaleDB, PostGIS)",
-        "Docker, Docker Swarm",
-        "ELK, Prometheus, Grafana",
-        "Jenkins, Artifactory, Portainer"
+        ""
       ]
     },
     {
-      "company": "Black Cloud Studios",
-      "position": "Unity Developer",
-      "website": "http://blackcloudstudios.com",
-      "startDate": "2013-09-01",
-      "endDate": "2015-06-01",
-      "summary": "After Reset RPG - an old-school hard sci-fi post-apocalyptic roleplaying game inspired by such video games as Fallout 1/2, Baldur’s Gate and Planescape: Torment.",
+      "company": "ООО «Селектек»",
+      "position": "Технический директор | Руководитель продукта BreedEx",
+      "website": "https://selectec.ru",
+      "startDate": "2021-09-01",
+      "summary": "Технический лидер BreedEx — отечественной системы для учета и ведения селекционных опытов в сельском хозяйстве. Под моим руководством компания перешла от аутстаф-разработки к собственному ИТ отделу. Система успешно эксплуатируется в десятках коммерческих селекционных компаниях и государственных НИИ из агропромышленного комплекса РФ.",
       "highlights": [
-        "Unity3D, C#",
-        "Game Design Patterns, Unit/Behaviour Testing, Profiling/Optimization",
-        "Unity custom extensions, Valve Steamworks API, Valve Steam Distribution"
+        ""
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Krasnodar Dev Days",
-      "position": "Co-founder, Organizer",
+      "organization": "KRD.DEV",
+      "position": "Член оргкомитета",
       "website": "https://krd.dev",
       "startDate": "2017-09-01",
-      "summary": "Largest community of IT specialists in Krasnodar, Russia.",
+      "summary": "Некоммерческое ИТ-сообщество Краснодара, созданное чтобы аккумулировать знания и опыт, поддерживать специалистов из сферы информационных технологий и создавать для них благоприятную среду.",
       "highlights": [
-        "Co-founder of Krasnodar Dev Conf annual conferences",
-        "Founder of Krasnodar Backend meetups and mini-conferences"
+        ""
+      ]
+    },
+    {
+      "organization": "ФГБОУ ВО «Кубанский государственный университет»",
+      "position": "Старший преподаватель",
+      "website": "https://www.kubsu.ru",
+      "startDate": "2023-09-01",
+      "summary": "Старший преподаватель кафедры математического моделирования на факультете компьютерных технологий и прикладной математики КубГУ. Основной дисциплиной являются “Технологии программирования” для последнего курса бакалавриата. Председатель экзаменационной и дипломной комиссий для бакалавров, магистров и аспирантов.",
+      "highlights": [
+        ""
       ]
     }
   ],
   "education": [
     {
-      "institution": "Transbaikal State University",
-      "area": "Information Technology, Computer Science",
-      "studyType": "Specialist",
+      "institution": "ФГБОУ ВО «Забайкальский государственный университет»",
+      "area": "Кафедра информатики, вычислительной техники и прикладной математики",
+      "studyType": "Специалитет",
       "startDate": "2009-09-01",
       "endDate": "2014-06-01",
       "gpa": "4.9",
       "courses": [
-        "Software Engineer"
+        "Инженер-программист"
       ]
     }
   ],
   "awards": [
     {
-      "title": "The best speaker on PGConf.Russia 2019",
+      "title": "Лучший доклад на PGConf.Russia 2019",
       "date": "2019-02-05",
-      "awarder": "PGConf.Russia"
+      "awarder": "PGConf.Russia от Postgres Professional"
     },
     {
-      "title": "Top speaker on HighLoad++ Siberia 2019",
+      "title": "Лучший доклад на HighLoad++ Siberia 2019",
       "date": "2019-06-25",
-      "awarder": "HighLoad++ conference by Ontico"
+      "awarder": "HighLoad++ от Онтико"
     }
   ],
   "publications": [
     {
-      "name": "My public activities",
+      "name": "Публичная деятельность",
       "publisher": "Github",
-      "releaseDate": "2019-07-01",
+      "releaseDate": "2009-09-01",
       "website": "https://github.com/binakot/My-Public-Activities"
     },
     {
-      "name": "Time series data in a relational DBMS. Extensions TimescaleDB and PipelineDB for PostgreSQL",
+      "name": "Статьи на Хабр",
       "publisher": "Habr",
-      "releaseDate": "2019-08-28",
-      "website": "https://habr.com/ru/company/oleg-bunin/blog/464303"
+      "releaseDate": "2024-08-13",
+      "website": "https://habr.com/ru/users/binakot/articles"
     },
     {
-      "name": "Time series data in a relational DBMS",
-      "publisher": "Otus",
-      "releaseDate": "2019-11-13",
-      "website": "https://otus.ru/nest/post/1041"
+      "name": "Профиль ТОП-100 ИТ-директоров по версии GlobalCIO",
+      "publisher": "GlobalCIO",
+      "releaseDate": "2025-09-01",
+      "website": "https://globalcio.ru/top100/profile/26144"
     }
   ],
   "skills": [
     {
-      "name": "Management",
+      "name": "",
       "keywords": [
-        "Product management, Project management, Team management",
-        "Leadership, Teamwork"
-      ]
-    },
-    {
-      "name": "Development",
-      "keywords": [
-        "SOA, Microservices",
-        "Java, Kotlin, Spring, Spring Boot, Spring Cloud",
-        "C#, .NET, WPF",
-        "Android SDK",
-        "SQL, PostgreSQL, MySQL",
-        "NoSQL, Mongo, Redis",
-        "MQ, RabbitMQ, Kafka",
-        "Unity3D"
-      ]
-    },
-    {
-      "name": "Operations",
-      "keywords": [
-        "Docker, Docker Compose, Docker Swarm",
-        "ELK stack (Elasticsearch, Logstash, Kibana)",
-        "Prometheus, Grafana",
-        "Jenkins, Artifactory, Portainer",
-        "SonarQube, Sentry"
-      ]
-    },
-    {
-      "name": "Misc",
-      "keywords": [
-        "Atlassian stack (BitBucket, Jira, Confluence, Slack)",
-        "Linux, Git"
+        ""
       ]
     }
   ],
   "languages": [
     {
-      "language": "Russian",
-      "fluency": "Native speaker"
+      "language": "Русский",
+      "fluency": "Родной"
     },
     {
       "language": "English",
-      "fluency": "B1 (Intermediate)"
+      "fluency": "B1"
     }
   ]
 }

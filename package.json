@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "jsonresume-theme-slick": "0.1.16",
+    "resume-cli": "3.0.8"
+  }
+}
