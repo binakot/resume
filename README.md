@@ -1,25 +1,16 @@
 # Resume of Ivan Muratov
 
-Made with http://jsonresume.org and hosted by http://github.com
+Made with [JSON Resume](https://jsonresume.org) and hosted on [GitHub Pages](https://binakot.github.io/resume).
 
-Want to make your own resume from JSON?
+## Build
 
 ```bash
-npm install resume-cli jsonresume-theme-slick
-resume init
-resume export index.html --theme slick
+npm install
+./build.sh
 ```
 
-A little hotfix of styles: replace two links in html head section of exported `index.html`:
+`build.sh` exports `resume.json` with the **slick** theme, applies an `http`→`https` hotfix, and injects the **Certificates** and **Projects** sections (which the slick theme does not render natively). All résumé data lives in `resume.json`; the round avatar is `avatar.jpg`.
 
-```html
-# from
-<link href="http://bootswatch.com/lumen/bootstrap.min.css" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Roboto:500,300' rel='stylesheet' type='text/css'>
-
-# to
-<link href="https://bootswatch.com/4/lumen/bootstrap.min.css" rel="stylesheet">
-<link href='https://fonts.googleapis.com/css?family=Roboto:500,300' rel='stylesheet' type='text/css'>
-```
+Theme: [jsonresume-theme-slick](https://www.npmjs.com/package/jsonresume-theme-slick).
 
 Inspired by https://github.com/BretFisher/resume.
