@@ -2,14 +2,14 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Иван Муратов",
-    "label": "CTO | CIO | CDO",
+    "label": "CTO · High‑load IoT & Time-Series · Agentic Dev & AI PDLC",
     "image": "avatar.jpg",
     "picture": "avatar.jpg",
     "email": "binakot@gmail.com",
     "phone": "",
     "url": "https://binakot.github.io/resume",
     "website": "https://binakot.github.io/resume",
-    "summary": "Разработчик и архитектор ПО с 15-летним опытом, из них более 5 лет в роли CTO продуктовой разработки. Соучредитель ИТ-компании, соавтор патентов и свидетельств о регистрации ПО. Технический лидер двух отраслевых платформ: Waliot (транспортная телематика) и BreedEx (селекция растений). Спикер профильных конференций, преподаватель и активный участник ИТ-сообщества.",
+    "summary": "Технический директор продуктовой разработки с 2020 года. Вырастил платформу транспортной телематики Waliot от первого коммита до промышленного B2B SaaS: ~25 млрд точек телеметрии, 15+ ТБ в PostgreSQL/TimescaleDB, 50+ сервисов в трёх ЦОДах, реестр российского ПО, совместимость с Astra Linux и Postgres Pro. Параллельно — CTO BreedEx (цифровая селекция растений): перевёл продукт с аутсорса на собственную команду. В 2026 году внедрил AI PDLC — агентную разработку на базе собственного харнесса, от тикета до продакшена. ТОП-100 ИТ-лидеров GlobalCIO 2025, награды за доклады на HighLoad++ и PGConf.Russia, преподаватель кафедры математического моделирования КубГУ.",
     "profiles": [
       {
         "network": "GitHub",
@@ -25,33 +25,47 @@
   },
   "work": [
     {
-      "company": "ООО «Первая Мониторинговая Компания»",
-      "position": "Технический директор · соучредитель (продукт Waliot)",
+      "company": "ООО «Первая Мониторинговая Компания» (Waliot)",
+      "position": "Технический директор (CTO) · совладелец",
       "website": "https://waliot.com",
       "url": "https://waliot.com",
-      "startDate": "2015-09-01",
-      "summary": "Создатель и технический лидер Waliot — отечественной облачной платформы GPS/ГЛОНАСС-мониторинга транспорта и персонала. Решение прошло путь от внутреннего инструмента до коммерческого B2B SaaS.",
+      "startDate": "2020-09-01",
+      "summary": "Отвечаю за разработку Waliot — отечественной платформы GPS/ГЛОНАСС-мониторинга транспорта и персонала: B2B SaaS и on-prem поставки для крупных заказчиков.",
       "highlights": [
-        "Спроектировал и возглавил разработку платформы Waliot с нуля до B2B SaaS для средних и крупных автопарков; построил инженерную команду и микросервисную архитектуру.",
-        "Внедрил ML-аналитику топлива (с 2017) и запустил партнёрскую программу платформы.",
-        "Руководил флагманскими проектами цифровизации автопарков: ПАО «Россети Северный Кавказ», ГК DOGMA, ООО «Мехколонна №1», АО «Тандер» (сеть «Магнит») — публичные кейсы рейтинга GlobalCIO.",
-        "Соавтор патентов и свидетельств о госрегистрации ПО Waliot.",
+        "Архитектура: 50+ сервисов (Spring Cloud, Docker Swarm) в трёх ЦОДах; приём данных по 35+ протоколам трекеров (EGTS, Wialon IPS, Teltonika, Galileosky и др.).",
+        "Данные: ~25 млрд точек телеметрии, 15+ ТБ на PostgreSQL + TimescaleDB + PostGIS; собственное шардирование хранилища; построение отчётов ускорено с ~1 мин до 5 с.",
+        "AI PDLC: собственный харнесс для AI ведёт задачу от тикета до продакшена; локальный RAG-ассистент по базе знаний внутри периметра.",
+        "Импортонезависимость: реестр российского ПО, первый в отрасли сертификат совместимости с Postgres Pro, Ready for Astra (Astra Linux, Tantor); переезд из зарубежного облака в российские ЦОДы.",
+        "Интеллектуальная собственность: патент на промышленный образец; свидетельства о регистрации ПО.",
         "Стек: Java/Kotlin, Spring Boot/Cloud, Angular/TypeScript, PostgreSQL + TimescaleDB + PostGIS, RabbitMQ, Redis, Docker Swarm, Linux."
       ]
     },
     {
-      "company": "ООО «Селектек»",
-      "position": "Технический директор (продукт BreedEx)",
+      "company": "ООО «Первая Мониторинговая Компания» (Waliot)",
+      "position": "Ведущий разработчик",
+      "website": "https://waliot.com",
+      "url": "https://waliot.com",
+      "startDate": "2015-09-01",
+      "endDate": "2020-08-31",
+      "summary": "Пришёл первым штатным разработчиком; спроектировал и написал ядро платформы Waliot.",
+      "highlights": [
+        "Спроектировал платформу с первого коммита (2017): приём телеметрии, микросервисы на Spring Cloud, выбор TimescaleDB + PostGIS и Docker Swarm.",
+        "Собрал команду разработки с нуля (2017), настроил сборку в Jenkins + Artifactory; бета в 2018, коммерческий релиз в 2019.",
+        "Запустил ML-аналитику расхода топлива и партнёрскую программу платформы."
+      ]
+    },
+    {
+      "company": "ООО «Селектек» (BreedEx)",
+      "position": "Технический директор (CTO)",
       "website": "https://selectec.ru",
       "url": "https://selectec.ru",
-      "startDate": "2021-09-01",
-      "summary": "Технический директор (CTO) BreedEx — отечественной системы учёта и анализа данных селекционных опытов.",
+      "startDate": "2022-04-01",
+      "summary": "Отвечаю за разработку BreedEx — отечественной платформы учёта и анализа данных селекционных опытов.",
       "highlights": [
-        "Перевёл разработку с аутстаффинга на собственный ИТ-отдел.",
-        "Соавтор свидетельств о госрегистрации ПО BreedEx.",
-        "Развитие при поддержке грантов Фонда содействия инновациям «Старт-1» и «Старт-2».",
-        "Эксплуатация в коммерческих селекционных компаниях и государственных НИИ агропромышленного комплекса.",
-        "Стек: Java/Spring, React/TypeScript, PostgreSQL + PostGIS, Android (Kotlin), Leaflet, Python/R."
+        "Команда: принял продукт у аутсорс-подрядчика и выстроил собственную команду разработки (backend, frontend, Android, QA); ввёл регламент разработки с релизными гейтами.",
+        "Внедрения: 10 on-prem инсталляций в контуре заказчиков — селекционные компании и НИИ АПК.",
+        "Господдержка: гранты Фонда содействия инновациям «Старт-1» и «Старт-2»; реестр российского ПО; свидетельство о регистрации ПО.",
+        "Стек: Java/Spring, React/TypeScript, PostgreSQL, Android (Kotlin), Leaflet, Python/R."
       ]
     },
     {
@@ -68,16 +82,16 @@
       "position": "Член оргкомитета · основатель Krasnodar Backend",
       "website": "https://krd.dev",
       "url": "https://krd.dev",
-      "startDate": "2017-09-01",
-      "summary": "Некоммерческое ИТ-сообщество Краснодара. Основатель и организатор Krasnodar Backend митапов и мини-конференций; ответственный за backend-направление."
+      "startDate": "2016-09-01",
+      "summary": "Некоммерческое ИТ-сообщество Краснодара. Основал и веду backend-направление; программный комитет конференции KDC."
     },
     {
       "organization": "ФГБОУ ВО «Кубанский государственный университет»",
       "position": "Старший преподаватель",
       "website": "https://www.kubsu.ru",
       "url": "https://www.kubsu.ru",
-      "startDate": "2023-09-01",
-      "summary": "Старший преподаватель кафедры математического моделирования ФКТиПМ. Дисциплина «Технологии программирования» (4 курс бакалавриата); председатель экзаменационной и дипломной комиссий."
+      "startDate": "2022-09-01",
+      "summary": "Кафедра математического моделирования ФКТиПМ, дисциплина «Технологии программирования» (4 курс бакалавриата); с 2025/26 учебного года курс перестроен под разработку с AI/LLM. Председатель экзаменационной и дипломной комиссий."
     },
     {
       "organization": "AgroFest и АгроТех (ДГТУ)",
@@ -88,7 +102,7 @@
       "summary": "Всероссийский студенческий фестиваль проектной деятельности ДГТУ. Независимый ИТ/ИИ-эксперт по кейсам и проектам; с 2026 — в составе дирекции; доклады про цифровые технологии в АПК."
     },
     {
-      "organization": "Postgres.ai",
+      "organization": "Postgres.AI",
       "position": "Эксперт PostgreSQL / TimescaleDB",
       "website": "https://postgres.ai",
       "url": "https://postgres.ai",
@@ -101,24 +115,36 @@
     {
       "institution": "ФГБОУ ВО «Забайкальский государственный университет»",
       "area": "Программное обеспечение вычислительной техники и автоматизированных систем",
-      "studyType": "Специалитет · квалификация «Инженер» (красный диплом)",
+      "studyType": "Специалитет, инженер · диплом с отличием",
       "startDate": "2009-09-01",
-      "endDate": "2014-06-30",
-      "courses": [
-        "Инженер-программист"
-      ]
+      "endDate": "2014-06-30"
     }
   ],
   "awards": [
     {
-      "title": "1 место, хакатон South HUB 2026 (мультиагентный AI-ассистент для совета директоров)",
+      "title": "1 место, AI South Hack на South HUB 2026 — мультиагентный AI-ассистент для совета директоров (40+ участников уровня C-level)",
       "date": "2026-06-13",
       "awarder": "South HUB (GIGASCHOOL × Yandex Cloud)"
+    },
+    {
+      "title": "ТОП-100 ИТ-лидеров России",
+      "date": "2025-09-01",
+      "awarder": "GlobalCIO"
     },
     {
       "title": "1 место, хакатон Iqarium (проект UrbanLabs)",
       "date": "2023-02-18",
       "awarder": "Iqarium"
+    },
+    {
+      "title": "2 место, Хакатон 123 (проект beCycled)",
+      "date": "2021-06-20",
+      "awarder": "Hack123"
+    },
+    {
+      "title": "Топ-3 доклада на PGConf.Russia 2021",
+      "date": "2021",
+      "awarder": "PGConf.Russia (Postgres Professional)"
     },
     {
       "title": "Топ-3 доклада на HighLoad++ Siberia 2019",
@@ -131,19 +157,9 @@
       "awarder": "PGConf.Russia (Postgres Professional)"
     },
     {
-      "title": "2 место, Хакатон 123 (проект beCycled)",
-      "date": "2019-04-01",
-      "awarder": "Hack123"
-    },
-    {
       "title": "1 место, 52-я МНСК «Студент и научно-технический прогресс» (секция ИИ)",
       "date": "2014-04-01",
       "awarder": "Новосибирский государственный университет"
-    },
-    {
-      "title": "1 место, «Молодёжная научная весна ЗабГУ-2014»",
-      "date": "2014-03-01",
-      "awarder": "Забайкальский государственный университет"
     },
     {
       "title": "Лауреат стипендии Президента РФ",
@@ -173,22 +189,17 @@
   ],
   "publications": [
     {
-      "name": "Профиль ТОП-100 ИТ-лидеров по версии GlobalCIO",
-      "publisher": "GlobalCIO",
-      "releaseDate": "2025-09-01",
-      "website": "https://globalcio.ru/top100/profile/26144"
-    },
-    {
       "name": "Технологические тренды в управлении автопарками в 2026",
       "publisher": "Habr",
       "releaseDate": "2026-06-01",
       "website": "https://habr.com/ru/articles/1041712/"
     },
     {
-      "name": "Пробег автомобиля: почему ГЛОНАСС и одометр расходятся? (цикл из 6 статей)",
+      "name": "Пробег автомобиля: почему ГЛОНАСС и одометр расходятся?",
       "publisher": "Habr",
       "releaseDate": "2024-12-02",
-      "website": "https://habr.com/ru/articles/863090/"
+      "website": "https://habr.com/ru/articles/863090/",
+      "summary": "Цикл из 6 статей, самые читаемые части набрали 9–10 тыс. просмотров."
     },
     {
       "name": "Системы управления автопарком в 2024: инсайты, потребности и проблемы",
@@ -197,92 +208,54 @@
       "website": "https://habr.com/ru/articles/835676/"
     },
     {
-      "name": "Публичная деятельность (доклады, подкасты, пресса)",
+      "name": "Выступления, подкасты и пресса",
       "publisher": "GitHub",
-      "releaseDate": "2017-09-17",
-      "website": "https://github.com/binakot/My-Public-Activities"
+      "releaseDate": "2017–2026",
+      "website": "https://github.com/binakot/My-Public-Activities",
+      "summary": "20+ докладов (HighLoad++, PGConf.Russia и др.), 10 выпусков подкастов, 8 статей на Habr (~43 тыс. просмотров), колонки в «Коммерсанте»."
     }
   ],
   "skills": [
     {
-      "name": "Backend и архитектура",
+      "name": "Лидерство и управление",
       "keywords": [
-        "Микросервисы",
-        "Высокие нагрузки",
-        "REST API",
-        "Spring Boot / Cloud",
-        "MyBatis",
-        "Netty"
+        "Технологическая стратегия",
+        "Построение команды с нуля",
+        "Перевод разработки из аутсорса в in-house",
+        "Найм и менторство",
+        "Инженерные процессы",
+        "Product ownership",
+        "Преподавание"
       ]
     },
     {
-      "name": "Данные",
+      "name": "AI в разработке и продукте",
       "keywords": [
-        "Time Series",
-        "ETL",
-        "PostgreSQL",
-        "TimescaleDB",
-        "PostGIS",
-        "Redis"
-      ]
-    },
-    {
-      "name": "Frontend",
-      "keywords": [
-        "Angular",
-        "TypeScript",
-        "Leaflet",
-        "Highcharts"
-      ]
-    },
-    {
-      "name": "DevOps и инфраструктура",
-      "keywords": [
-        "Docker",
-        "Docker Swarm",
-        "GitLab CI/CD",
-        "Jenkins",
-        "Nginx",
-        "Ansible",
-        "Linux",
-        "Prometheus",
-        "Grafana",
-        "ELK"
-      ]
-    },
-    {
-      "name": "Очереди и интеграции",
-      "keywords": [
-        "RabbitMQ",
-        "WebSocket",
-        "OpenAPI / Swagger"
-      ]
-    },
-    {
-      "name": "Мобильная разработка",
-      "keywords": [
-        "Android (Kotlin)",
-        "iOS (Swift)"
-      ]
-    },
-    {
-      "name": "AI / LLM",
-      "keywords": [
+        "Agentic Dev / AI PDLC",
         "Мультиагентные системы",
-        "LLM-приложения (agentic workflows, RAG, tool use / MCP)",
-        "Yandex AI Studio",
+        "RAG и MCP",
+        "Локальные LLM в контуре компании",
         "ML-аналитика"
       ]
     },
     {
-      "name": "Лидерство и продукт",
+      "name": "Архитектура и данные",
       "keywords": [
-        "Управление ИТ-командой",
-        "Product ownership",
-        "Архитектура ПО",
-        "Найм",
-        "Менторство",
-        "Преподавание"
+        "Высоконагруженные IoT-платформы",
+        "Time Series (PostgreSQL / TimescaleDB / PostGIS)",
+        "Шардирование",
+        "Микросервисы (Java / Spring Cloud)",
+        "Наблюдаемость (Prometheus / Grafana / ELK)"
+      ]
+    },
+    {
+      "name": "Импортозамещение",
+      "keywords": [
+        "Реестр российского ПО",
+        "Astra Linux",
+        "Postgres Pro",
+        "Tantor",
+        "Российские ЦОДы"
       ]
     },
     {
@@ -291,41 +264,45 @@
         "Транспортная телематика (GPS/ГЛОНАСС, CAN-шина)",
         "Промышленная телеметрия / IoT",
         "ГИС",
-        "АПК и селекция растений",
-        "Высокие нагрузки"
+        "АПК и селекция растений"
       ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Русский",
+      "fluency": "Родной"
+    },
+    {
+      "language": "Английский",
+      "fluency": "B1"
     }
   ],
   "projects": [
     {
-      "name": "Waliot",
-      "description": "Облачная B2B SaaS-платформа GPS/ГЛОНАСС-мониторинга транспорта и персонала.",
-      "url": "https://waliot.com"
-    },
-    {
-      "name": "BreedEx",
-      "description": "Цифровая платформа учёта и анализа селекционных опытов.",
-      "url": "https://selectec.ru"
-    },
-    {
       "name": "Meridian AI Assistant",
-      "description": "Мультиагентный AI-аналитик данных (FastAPI, DuckDB, Yandex AI Studio) — победитель хакатона South HUB 2026 (1 место).",
+      "description": "Мультиагентный AI-аналитик данных для совета директоров (FastAPI, DuckDB, Yandex AI Studio). 1 место на AI South Hack, South HUB 2026.",
       "url": "https://github.com/binakot/Southhub-2026-Meridian-AI-Assistant"
     },
     {
-      "name": "beCycled",
-      "description": "Социальная платформа для велосипедистов (open-source, MIT) — 2 место на Хакатоне 123.",
-      "url": "https://github.com/be-Cycled"
-    },
-    {
-      "name": "UrbanLabs",
-      "description": "Система автоматизированного управления зданий для собственников бизнес-центров (open-source, MIT) — 1 место на хакатоне ИЦ Аквариум.",
-      "url": "https://github.com/URBANLABS-GROUP"
+      "name": "PostgreSQL-PostGIS-TimescaleDB",
+      "description": "Docker-образ PostgreSQL с PostGIS и TimescaleDB для time-series и геоданных. Open-source, 60★ на GitHub.",
+      "url": "https://github.com/binakot/PostgreSQL-PostGIS-TimescaleDB"
     },
     {
       "name": "Multi-Node-TimescaleDB",
-      "description": "Открытый демо-проект распределённого (multi-node) развёртывания TimescaleDB — основа докладов про time-series в PostgreSQL.",
+      "description": "Открытый демо-проект распределённого (multi-node) развёртывания TimescaleDB, основа докладов про time-series в PostgreSQL. 54★ на GitHub.",
       "url": "https://github.com/binakot/Multi-Node-TimescaleDB"
+    },
+    {
+      "name": "UrbanLabs",
+      "description": "Система автоматизированного управления зданиями для собственников бизнес-центров (open-source, MIT). 1 место на хакатоне Iqarium.",
+      "url": "https://github.com/URBANLABS-GROUP"
+    },
+    {
+      "name": "beCycled",
+      "description": "Социальная платформа для велосипедистов (open-source, MIT). 2 место на Хакатоне 123.",
+      "url": "https://github.com/be-Cycled"
     }
   ]
 }

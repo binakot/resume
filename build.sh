@@ -22,11 +22,11 @@ pi="".join('\n\t\t\t<div class="item">\n\t\t\t\t<div class="name">\n\t\t\t\t\t<h
 s=io.open("index.html",encoding="utf-8").read()
 if R.get("certificates") and '<section id="certificates"' not in s:
     a='\t<section id="publications" class="row">'
-    if a in s: s=s.replace(a, sec("certificates","entypo-ribbon","Certificates",ci)+a,1)
+    if a in s: s=s.replace(a, sec("certificates","entypo-newspaper","Certificates",ci)+a,1)
 if R.get("projects") and '<section id="projects"' not in s:
     a='\t<section id="skills" class="row">'
     if a in s: s=s.replace(a, sec("projects","entypo-rocket","Projects",pi)+a,1)
-s=s.replace("http://bootswatch.com/lumen/bootstrap.min.css","https://bootswatch.com/4/lumen/bootstrap.min.css")
+s=s.replace("http://bootswatch.com/lumen/bootstrap.min.css","https://bootswatch.com/3/lumen/bootstrap.min.css")
 s=s.replace("http://fonts.googleapis.com/css?family=Roboto:500,300","https://fonts.googleapis.com/css?family=Roboto:500,300")
 io.open("index.html","w",encoding="utf-8").write(s)
 print("post-processed: certificates + projects injected, https hotfix applied")
